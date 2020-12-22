@@ -106,11 +106,11 @@ function draw() {
 
     if(gameState!="Hungry"){
       feedButton.hide();
-      addFood.hide();
+      addFoodButton.hide();
       dog.remove();
     }else{
       feedButton.show();
-      addFood.show();
+      addFoodButton.show();
       dog.addImage(dogImg);
     }
 }
