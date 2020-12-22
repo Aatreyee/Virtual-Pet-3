@@ -17,9 +17,9 @@ function preload()
 {
     dogImg=loadImage("dogImg.png");
     happyDogImg=loadImage("dogImg1.png");
-    bedroomImg=loadImage("dog/Bed Room.png");
-    gardenImg=loadImage("dog/Garden.png");
-    washroomIg=loadImage("dog/washRoom.png");
+    bedroomImg=loadImage("Bed Room.png");
+    gardenImg=loadImage("Garden.png");
+    washroomIg=loadImage("washRoom.png");
 }
 
 function setup() {
@@ -82,7 +82,7 @@ function draw() {
 
 
     addFoodButton.mousePressed(()=>{
-      food = foodS + 1;
+      foodS = foodS + 1;
       foodObj.updateFoodStock(foodS);
     });
   
